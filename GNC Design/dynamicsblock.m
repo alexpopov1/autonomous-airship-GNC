@@ -5,6 +5,7 @@
 % issues with syms in Simulink
 
 function states_dot = dynamicsblock(input,states)
+
 %% Load function handle for the nonlinear dynamics
 functions = load('nonlinear_functions');
 functions = functions.functions;
